@@ -7,4 +7,141 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-size: 14px;
+}
+
+@media (min-width: 800px) {
+  body {
+    width: 800px;
+  }
+
+.background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+    background-color:#1c5380;
+    -moz-box-shadow: inset 0 -10px 10px -10px black;
+    -webkit-box-shadow: inset 0 -10px 10px -10px black;
+    box-shadow: inset 0 -10px 60px -10px #122442;
+}
+
+.header-to-footer {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    margin: auto;
+}
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.login-button {
+  border: none;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  background-color:#2569a0;
+  color: aliceblue;
+  border-radius: 5px;
+      -moz-box-shadow: inset 0 -10px 0px -10px ##213e70;
+      -webkit-box-shadow: inset 0 -5px 0px -10px ##213e70;
+      box-shadow: inset 0 -10px 10px -10px #213e70;
+}
+
+.home-icon {
+  padding-right: 5px;
+}
+
+.text {
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px ;
+    -moz-box-shadow:  0 -10px 15px -10px #17276e;
+    -webkit-box-shadow:  0 -10px 15px -10px rgb(19, 44, 80);
+    box-shadow:  0 -10px -1px -10px grey;
+}
+
+h2 {
+  width: 310px;
+  color:#06365f;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  width: 400px;
+  font-weight:bolder;
+  color: #3a3f44;
+}
+
+.main {
+  display:flex;
+  flex-direction: column;
+}
+
+.download-icons {
+  width: 500px;
+  height: 200px;
+  margin-top: 30px;
+
+}
+#app-store-mac {
+  padding-left: 20px;
+}
+
+.iphones {
+  width: 400px;
+  margin-left: 10px;
+}
+
+.nav {
+  margin-top: 15px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-evenly;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+
+}
+li {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 10px;
+  font-weight: bold;
+  color: #3c5b8f;
+
+}
+
+#ig-footer {
+  margin-left: 30px;
+  color: gray;
 }
